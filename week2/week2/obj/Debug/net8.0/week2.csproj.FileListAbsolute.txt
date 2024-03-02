@@ -12,3 +12,4 @@
 /Users/maker-ryu/Desktop/Scarpa/week2/week2/obj/Debug/net8.0/week2.pdb
 /Users/maker-ryu/Desktop/Scarpa/week2/week2/obj/Debug/net8.0/week2.genruntimeconfig.cache
 /Users/maker-ryu/Desktop/Scarpa/week2/week2/obj/Debug/net8.0/ref/week2.dll
+/Users/maker-ryu/Desktop/Scarpa/week2/week2/obj/Debug/net8.0/week2.sourcelink.json
