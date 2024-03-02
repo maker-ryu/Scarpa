@@ -72,50 +72,90 @@
 
 // 2-3 최대값, 최소값 찾기
 
-class Program
-{
-    static void Main()
-    {
-        int[] numbers = new int[100]; // { 60, 30, 20, 50, 40, 10 }; 
-        int howManyNum = 0;
+// class Program
+// {
+//     static void Main()
+//     {
+//         int[] numbers = new int[100]; // { 60, 30, 20, 50, 40, 10 }; 
+//         int howManyNum = 0;
+//
+//         Console.WriteLine("Enter 'q' to Quiet");
+//         while (true)
+//         {
+//             string temp = Console.ReadLine();
+//         
+//             if (temp == "q")
+//             {
+//                 break;
+//             }
+//             
+//             numbers[howManyNum] = int.Parse(temp);
+//             howManyNum++;
+//         }
+//         
+//         // 60 30 20 50 40
+//
+//         for (int i = 0; i < howManyNum; i++)
+//         {
+//             // int index = 0;
+//             for (int j = i + 1; j < howManyNum; j++)
+//             {
+//                 if (numbers[i] > numbers[j])
+//                 {
+//                     int temp = numbers[i];
+//                     numbers[i] = numbers[j];
+//                     numbers[j] = temp;
+//                 }
+//             }
+//         }
+//         
+//         Console.WriteLine($"최대값: {numbers[howManyNum - 1]}");
+//         Console.WriteLine($"최소값: {numbers[0]}");
+//
+//         // foreach (int num in numbers)
+//         // {
+//         //     Console.Write(num + " ");
+//         // }
+//     }
+// }
 
-        Console.WriteLine("Enter 'q' to Quiet");
-        while (true)
-        {
-            string temp = Console.ReadLine();
-        
-            if (temp == "q")
-            {
-                break;
-            }
-            
-            numbers[howManyNum] = int.Parse(temp);
-            howManyNum++;
-        }
-        
-        // 60 30 20 50 40
+// 2-4 소수 판별하기
 
-        for (int i = 0; i < howManyNum; i++)
-        {
-            // int index = 0;
-            for (int j = i + 1; j < howManyNum; j++)
-            {
-                if (numbers[i] > numbers[j])
-                {
-                    int temp = numbers[i];
-                    numbers[i] = numbers[j];
-                    numbers[j] = temp;
-                }
-            }
-        }
-        
-        Console.WriteLine($"최대값: {numbers[howManyNum - 1]}");
-        Console.WriteLine($"최소값: {numbers[0]}");
+// class Program
+// {
+//     static bool IsPrime(int _num)
+//     {
+//         if (_num == 1)
+//         {
+//             return true;
+//         }
+//         
+//         for (int i = 2; i < _num; i++)
+//         {
+//             if (_num % i == 0)
+//             {
+//                 return false;
+//             }
+//         }
+//         return true;
+//     }
+//     
+//     static void Main()
+//     {
+//         Console.Write("숫자를 입력하세요: ");
+//         string input = Console.ReadLine();
+//         int num = int.Parse(input);
+//
+//         if (IsPrime(num))
+//         {
+//             Console.WriteLine(num + "은 소수입니다.");
+//         }
+//         else
+//         {
+//             Console.WriteLine(num + "은 소수가 아닙니다.");
+//         }
+//     }
+// }
 
-        // foreach (int num in numbers)
-        // {
-        //     Console.Write(num + " ");
-        // }
-    }
-}
+// 2-5 숫자 맞추기
 

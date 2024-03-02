@@ -8,7 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb2fec6-f17a-4737-9989-f8de68b4d42a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week3/week3/Snake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.week2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.pdb" afterDir="false" />
@@ -16,9 +17,12 @@
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/refint/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/refint/week2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/week3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/week3/week3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/week3.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709299322611</updated>
       <workItem from="1709299323777" duration="2087000" />
-      <workItem from="1709310285060" duration="2404000" />
+      <workItem from="1709310285060" duration="4271000" />
     </task>
     <servers />
   </component>
