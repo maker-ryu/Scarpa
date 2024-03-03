@@ -9,24 +9,20 @@ class Program
     static int mapY = 10; // y축
     
     // 게임 속도 지정
-    static int gameSpeed = 1000;
+    static int gameSpeed = 100;
     
     static void Main()
     {
-        Snake snake = new Snake(mapX, mapY); // 뱀의 위치를 랜덤으로 생성
+        // 뱀의 위치를 랜덤으로 생성
+        Snake snake = new Snake(mapX, mapY); 
         
-        // foreach (Point body in snake.SnakePosition) // 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        // {
-        //     Console.WriteLine("snake: " + body);
-        // }
-        
+        // 음식의 위치를 랜덤으로 생성
         FoodCreator foodCreator = new FoodCreator();
         foodCreator.CreateFood(mapX, mapY, snake.SnakePosition);
         
-        // Console.WriteLine("food :" + foodCreator.FoodPosition); // 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
-        
         // 화면 출력 
         Display(snake.SnakePosition, foodCreator.FoodPosition, foodCreator.HowManyEat);
+        Console.WriteLine("Press Arrow Key(⭠ ⭡ ⭢ ⭣) to start!");
         
         // 키 입력을 받고 뱀의 방향을 정하면 시작
         ConsoleKey startKey = Console.ReadKey(true).Key;
@@ -34,38 +30,59 @@ class Program
 
         while (true)
         {
-            // 사용자 키 입력이 있으면 
+            // 사용자 키 입력이 있으면 실행, While은 버퍼에 쌓아둔 값을 없애기 위함
             while (Console.KeyAvailable)
             {
-                ConsoleKey keyEvent = Console.ReadKey(true).Key;
-                Console.WriteLine("key:" + keyEvent); // 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
-                snake.SnakeDirection(keyEvent);
                 // 사용자의 입력에 따라 뱀의 방향을 바꿈
-                
+                ConsoleKey keyEvent = Console.ReadKey(true).Key;
+                snake.SnakeDirection(keyEvent); 
             }
             
-            // 뱀의 위치를 바꿈
+            // 현재의 뱀의 방향에 따라서 뱀의 위치를 바꿈
             snake.MoveSnake();
             
             // 음식을 먹었는지?
+            if (snake.IsEatTheFood(foodCreator.FoodPosition))
+            {
                 // 이동하면서 사라진 위치에 뱀 몸통 하나 추가
+                snake.AddBody();
                 // 먹은 음식 개수 카운트 추가
+                foodCreator.HowManyEat++;
                 // 새로운 음식 생성
+                foodCreator.CreateFood(mapX, mapY, snake.SnakePosition);
+            }
             // 벽에 박았는지? -> 게임오버
+            if (snake.IsCrash2Wall(mapX, mapY))
+            {
+                Console.WriteLine("You crashed to wall!");
+                break;
+            }
+            
             // 뱀의 몸에 부딫혔는지? -> 게임오버
+            if (snake.IsCrash2Body())
+            {
+                Console.WriteLine("You crashed by self!");
+                break;
+            }
 
             // 화면 출력 
             Display(snake.SnakePosition, foodCreator.FoodPosition, foodCreator.HowManyEat);
-            foreach (Point body in snake.SnakePosition) // 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            Console.WriteLine($"Eat : {foodCreator.HowManyEat}");
+            
+            /*
+            // >>>>>>>>>>>>>>>>>>>>>>>>>> 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            foreach (Point body in snake.SnakePosition) 
             {
                 Console.WriteLine("snake: " + body);
             }
             Console.WriteLine("tail: " + snake.TailPoint);
+            Console.WriteLine("food :" + foodCreator.FoodPosition);
+            */
             
-            Console.WriteLine("실행"); // 테스트 출력 코드 <<<<<<<<<<<<<<<<<<<<<<<<<<<<
             Thread.Sleep(gameSpeed);
             // break;
         }
+        Console.WriteLine("Game Over!!");
     }
 
     // 콘솔 화면 출력( 뱀 위치, 음식 위치, 먹은 음식 개수 ) 
@@ -169,17 +186,12 @@ class Snake
     {
         List<Point> temp = new List<Point>(body);
         body.Clear();
-
-        // for (int i = 0; i < body.Count; i++)
-        // {
-        //     Console.WriteLine(body[i]);
-        // }
         
         // 방향성에 따라 머리 위치 변경
         Point head = default;
-        Console.WriteLine("direction: " + direction);
-        Console.WriteLine("temp[0].X: " + temp[0].X);
-        Console.WriteLine("temp[0].Y: " + temp[0].Y);
+        // Console.WriteLine("direction: " + direction);
+        // Console.WriteLine("temp[0].X: " + temp[0].X);
+        // Console.WriteLine("temp[0].Y: " + temp[0].Y);
         if (direction == "up")
         {
             head = new Point(temp[0].X, temp[0].Y + 1);
@@ -199,14 +211,15 @@ class Snake
         // 새로운 머리 위치 추가
         body.Add(head);
         
-        // 다음 몸 위치 순차적으로 추가
         if (temp.Count == 1)
         {
+            // 기존 뱀의 꼬리 위치 저장
             Point t = new Point(temp[0].X, temp[0].Y);
             tail = t;
         }
         else
         {
+            // 다음 몸 위치 순차적으로 추가
             for (int i = 0; i < temp.Count - 1; i++)
             {
                 Point p = new Point(temp[i].X, temp[i].Y);
@@ -216,7 +229,53 @@ class Snake
             tail = t;
         }
         
-        // 기존 뱀의 꼬리 위치 저장
+    }
+
+    // 음식 Point 값을 받아서 음식을 먹었는지 확인
+    public bool IsEatTheFood(Point _food)
+    {
+        if (body[0].X == _food.X && body[0].Y == _food.Y)
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    // 꼬리 위치에 뱀 몸통 하나 추가
+    public void AddBody()
+    {
+        body.Add(tail);
+    }
+    
+    // 벽에 박았는지?
+    public bool IsCrash2Wall(int _mapX, int _mapY)
+    {
+        if (body[0].X < 0 || body[0].X > _mapX - 1 || body[0].Y < 0 || body[0].Y > _mapY - 1)
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    // 뱀의 몸에 부딫혔는지?
+    public bool IsCrash2Body()
+    {
+        // 바뀐 머리의 Point값을 비교
+        for (int i = 1; i < body.Count; i++)
+        {
+            // 뒤따라오는 몸통과 충돌이 일어났는지 검토
+            if (body[0] == body[i])
+            {
+                return true;
+            }
+    
+            // 기존 꼬리와 충돌이 일어났는지 검토
+            if (body[0] == tail)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
 
@@ -237,6 +296,7 @@ class FoodCreator
     public int HowManyEat
     {
         get { return howManyEat; }
+        set { howManyEat = value; }
     }
     
     // 정해진 맵 크기 내의 좌표에서 뱀의 위치가 아닌곳에 음식 생성
