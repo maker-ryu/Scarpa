@@ -158,37 +158,59 @@
 // }
 
 // 2-5 숫자 맞추기
+//
+// class Program
+// {
+//     static void Main()
+//     {
+//         Random random = new Random();
+//         int computerNum = random.Next(1, 100);
+//         int count = 1;
+//         
+//         Console.WriteLine("숫자 맞추기 게임을 시작합니다. 1에서 100까지의 숫자 중 하나를 맞춰보세요");
+//
+//         while (true)
+//         {
+//             Console.Write("숫자를 입력하세요: ");
+//             int userNum = int.Parse(Console.ReadLine());
+//
+//             if (computerNum == userNum)
+//             {
+//                 break;
+//             }
+//             else if(computerNum > userNum)
+//             {
+//                 Console.WriteLine("너무 작습니다!");
+//                 count++;
+//             }
+//             else if (computerNum < userNum)
+//             {
+//                 Console.WriteLine("너무 큽니다!");
+//                 count++;
+//             }
+//         }
+//         Console.WriteLine($"축하합니다! {count}번 만에 숫자를 맞추었습니다.");
+//     }
+// }
+
+// 2-6 틱택토 ( 콘솔 )
 
 class Program
 {
     static void Main()
     {
-        Random random = new Random();
-        int computerNum = random.Next(1, 100);
-        int count = 1;
-        
-        Console.WriteLine("숫자 맞추기 게임을 시작합니다. 1에서 100까지의 숫자 중 하나를 맞춰보세요");
+        // ConsoleKeyInfo consoleKeyInfo;
 
         while (true)
         {
-            Console.Write("숫자를 입력하세요: ");
-            int userNum = int.Parse(Console.ReadLine());
-
-            if (computerNum == userNum)
+            while (Console.KeyAvailable)
             {
-                break;
+                ConsoleKey key = Console.ReadKey(true).Key;
+                Console.WriteLine("key:" + key);
             }
-            else if(computerNum > userNum)
-            {
-                Console.WriteLine("너무 작습니다!");
-                count++;
-            }
-            else if (computerNum < userNum)
-            {
-                Console.WriteLine("너무 큽니다!");
-                count++;
-            }
+            
+            Console.WriteLine("실행");
+            Thread.Sleep(1000);
         }
-        Console.WriteLine($"축하합니다! {count}번 만에 숫자를 맞추었습니다.");
     }
 }

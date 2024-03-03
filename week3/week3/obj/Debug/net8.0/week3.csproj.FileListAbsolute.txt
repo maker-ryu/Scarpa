@@ -1,0 +1,15 @@
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/bin/Debug/net8.0/week3
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/bin/Debug/net8.0/week3.deps.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/bin/Debug/net8.0/week3.runtimeconfig.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/bin/Debug/net8.0/week3.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/bin/Debug/net8.0/week3.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.AssemblyInfoInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.AssemblyInfo.cs
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.csproj.CoreCompileInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.sourcelink.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/refint/week3.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/week3.genruntimeconfig.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3/obj/Debug/net8.0/ref/week3.dll

@@ -21,6 +21,8 @@
       <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3/week3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/week3/obj/Debug/net8.0/week3.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/obj/Debug/net8.0/week3.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week3/week3/obj/Debug/net8.0/week3.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/obj/Debug/net8.0/week3.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709299322611</updated>
       <workItem from="1709299323777" duration="2087000" />
-      <workItem from="1709310285060" duration="5693000" />
+      <workItem from="1709310285060" duration="9753000" />
     </task>
     <servers />
   </component>
