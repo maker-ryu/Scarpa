@@ -194,23 +194,3 @@
 // }
 
 // 2-6 틱택토 ( 콘솔 )
-
-class Program
-{
-    static void Main()
-    {
-        // ConsoleKeyInfo consoleKeyInfo;
-
-        while (true)
-        {
-            while (Console.KeyAvailable)
-            {
-                ConsoleKey key = Console.ReadKey(true).Key;
-                Console.WriteLine("key:" + key);
-            }
-            
-            Console.WriteLine("실행");
-            Thread.Sleep(1000);
-        }
-    }
-}

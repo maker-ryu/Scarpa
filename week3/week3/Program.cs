@@ -325,7 +325,3 @@ class FoodCreator
         }
     }
 }
-
-
-
-
