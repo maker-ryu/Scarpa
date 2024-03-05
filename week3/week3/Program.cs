@@ -4,7 +4,7 @@ using System.Drawing;
 class Program
 {
     // 맵의 크기를 지정
-    // 맵에서의 죄표는 좌측하단부터 (0,0), 우측으로는 x축, 위쪽으로는 y축. 좌표평면 기준 1사분면
+    // 맵3에서의 죄표는 좌측하단부터 (0,0), 우측으로는 x축, 위쪽으로는 y축. 좌표평면 기준 1사분면
     static int mapX = 20; // x축
     static int mapY = 10; // y축
     
