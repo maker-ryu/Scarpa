@@ -8,22 +8,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb2fec6-f17a-4737-9989-f8de68b4d42a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/cs/Animal.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/.idea/.idea.TextRPG_01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/.idea/.idea.TextRPG_01/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/.idea/.idea.TextRPG_01/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/TextRPG_01.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/bin/Debug/net8.0/TextRPG_01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/bin/Debug/net8.0/TextRPG_01.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/bin/Debug/net8.0/TextRPG_01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/bin/Debug/net8.0/TextRPG_01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/bin/Debug/net8.0/TextRPG_01.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/cs/Animal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/TextRPG_01.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/ref/TextRPG_01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/Debug/net8.0/refint/TextRPG_01.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/TextRPG_01.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/TextRPG_01.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/TextRPG_01.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/rider.project.model.nuget.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG_01/TextRPG_01/obj/rider.project.restore.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.week2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/week2/bin/Debug/net8.0/week2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/ref/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/ref/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/refint/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/refint/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/week2/obj/Debug/net8.0/week2.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/week3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709299322611</updated>
       <workItem from="1709299323777" duration="2087000" />
-      <workItem from="1709310285060" duration="18280000" />
+      <workItem from="1709310285060" duration="18288000" />
     </task>
     <servers />
   </component>
