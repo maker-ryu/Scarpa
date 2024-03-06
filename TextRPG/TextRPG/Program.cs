@@ -4,6 +4,7 @@ namespace TextRPG;
 
 class Program
 {
+    
     static void Main()
     {
         Awake();
@@ -12,16 +13,12 @@ class Program
 
     static void Awake()
     {
-        GameManager gameManager = new GameManager();
-        // DataManager dataManager = new DataManager();
+        DataManager dataManager = new DataManager();
     }
 
     static void Start()
     {
-        while (true)
-        {
-            Update();
-        }
+        GameManager gameManager = new GameManager();
     }
 
     static void Update()

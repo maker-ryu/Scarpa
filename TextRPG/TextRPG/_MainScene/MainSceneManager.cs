@@ -1,15 +1,18 @@
+using TextRPG._LoadingScene;
+
 namespace TextRPG._MainScene;
 
-public class MainSceneManager
+public class MainSceneManager : SceneManager
 {
     public MainSceneManager()
     {
         Awake();
-        Start();
+        // Start();
     }
     
     static void Awake()
     {
+        Console.WriteLine("메인씬 시작");
         
     }
 

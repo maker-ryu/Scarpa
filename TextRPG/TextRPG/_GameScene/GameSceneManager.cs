@@ -1,6 +1,6 @@
 namespace TextRPG._GameScene;
 
-public class GameSceneManager
+public class GameSceneManager : SceneManager
 {
     
 }
