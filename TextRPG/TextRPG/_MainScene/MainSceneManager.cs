@@ -1,30 +1,34 @@
+using TextRPG._Common;
 using TextRPG._LoadingScene;
 
 namespace TextRPG._MainScene;
 
 public class MainSceneManager : SceneManager
 {
-    public MainSceneManager()
+    public MainSceneManager(DataManager _dataManager)
     {
         Awake();
         // Start();
     }
     
-    static void Awake()
+    private void Awake()
     {
-        Console.WriteLine("메인씬 시작");
+        Console.WriteLine("==== MainSceneManager 시작 ====");
         
     }
 
-    static void Start()
+    public SceneState Start()
     {
         while (true)
         {
             Update();
+            break;
         }
+
+        return SceneState.GameScene;
     }
 
-    static void Update()
+    private void Update()
     {
         
     }

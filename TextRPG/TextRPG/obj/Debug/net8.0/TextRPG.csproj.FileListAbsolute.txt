@@ -13,3 +13,6 @@
 /Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.pdb
 /Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.genruntimeconfig.cache
 /Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/obj/Debug/net8.0/ref/TextRPG.dll
+/Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.AssemblyReference.cache
+/Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.Up2Date

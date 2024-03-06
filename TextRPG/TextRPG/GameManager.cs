@@ -1,21 +1,18 @@
+using TextRPG._Common;
 using TextRPG._GameScene;
 using TextRPG._LoadingScene;
 using TextRPG._MainScene;
 
 namespace TextRPG;
 
-public enum SceneState
-{
-    LoadingScene,
-    MainScene,
-    GameScene,
-}
-
 public class GameManager
 {
-    private static bool endGame = false;
-    private static SceneState sceneState;
-    private static SceneManager nowScene;
+    private bool endGame = false;
+    private int gameSpeed = 1000; // 씬 전환 속도
+    private SceneState sceneState; // 현재 띄워야 할 씬이 무엇인지 저장
+    
+    // private SceneManager nowScene;
+    private DataManager dataManager;
     
     public GameManager()
     {
@@ -23,47 +20,41 @@ public class GameManager
         Start();
     }
     
-    static void Awake()
+    private void Awake()
     {
-        // 초기화
+        // 데이터 매니저 소환
+        dataManager = new DataManager();
+        // 씬 상태 초기화(당연히 처음 거쳐가야 하는 로딩씬)
         sceneState = SceneState.LoadingScene;
     }
 
-    static void Start()
+    private void Start()
     {
         while (!endGame)
         {
             Update();
-            Thread.Sleep(1000);
+            Thread.Sleep(gameSpeed); 
         }
     }
 
-    static void Update()
+    private void Update()
     {
         switch (sceneState)
         {
             case SceneState.LoadingScene:
-                nowScene = new LoadingSceneManager();
-                // LoadingSceneManage
+                LoadingSceneManager loadingSceneManager = new LoadingSceneManager(dataManager); // 로딩씬 인스턴스 생성, 데이터 매니저 참조값 전달
+                sceneState = loadingSceneManager.Start(); // 로딩씬 시작, 끝나면 다음 씬이 무엇일지 반환
                 break;
             case SceneState.MainScene:
-                nowScene = new MainSceneManager();
+                MainSceneManager mainSceneManager = new MainSceneManager(dataManager);
+                sceneState = mainSceneManager.Start();
                 break;
             case SceneState.GameScene:
-                nowScene = new GameSceneManager();
+                GameSceneManager gameSceneManager = new GameSceneManager(dataManager);
+                sceneState = gameSceneManager.Start();
                 break;
             default:
                 break;
         }
-        
-        // 씬 실행
-        // nowScene.실행하고 싶은 함수();
-        // Console.WriteLine("실행");
-    }
-
-    // 외부에서 씬 변경을 해주는 함수
-    public static void ChangeSceneState(SceneState state)
-    {
-        sceneState = state;
     }
 }

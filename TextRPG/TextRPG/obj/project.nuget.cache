@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GiTe13vYSb6maDfrtDcZVNGZb+TfoPLvfw9r0tq7v0g+LBWFfTb4gn8C7tokVrwh3KUXOQBAxCL9NwRqXhweJw==",
+  "dgSpecHash": "7dPRcfmGJY4wA22G/hBukDNlJDmmJXsvZm0b5NSdRd9RspYXFvOs1FjD9T4vuiG8N3wOmMLiHFbiubGbGoOTJg==",
   "success": true,
   "projectFilePath": "/Users/maker-ryu/Desktop/Scarpa/TextRPG/TextRPG/TextRPG.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/maker-ryu/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
