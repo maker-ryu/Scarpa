@@ -2,39 +2,40 @@ using TextRPG._Common;
 
 namespace TextRPG._GameScene;
 
-public class GameSceneManager : SceneManager
+public class GameSceneManager
 {
-    public GameSceneManager(DataManager _dataManager)
+    private DataManager dataManager;
+    private SceneState returnSceneState;
+    private User user;
+    
+    private bool endGameScene = false;
+    // private BattleState battleState;
+    
+    // 생성자
+    public GameSceneManager(DataManager dataManager)
     {
+        this.dataManager = dataManager;
         Awake();
-        // Start();
     }
     
     private void Awake()
     {
         Console.WriteLine("==== GameSceneManager 시작 ====");
-
-        // 기존 데이터 불러오기
+        // User 정보 할당
+        user = dataManager.GetUserData();
+        // battleState = BattleState.Idle;
     }
 
     public SceneState Start()
     {
-        while (true)
+        BattleStage battleStage = new BattleStage(dataManager, user, 1);
+        battleStage.Start();
+
+        if (user.IsDead)
         {
-            Update();
-            break;
+            returnSceneState = SceneState.GameOver;
         }
-
-        return SceneState.MainScene;
-    }
-
-    private void Update()
-    {
         
-    }
-    
-    private void WriteLog(string _action, string _message)
-    {
-        Console.WriteLine($"(GSM log) {_action} : {_message}");
+        return returnSceneState;
     }
 }

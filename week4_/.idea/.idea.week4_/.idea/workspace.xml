@@ -8,14 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff5476b-b428-4080-aeec-2ed4c2dd5d88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/ICharacter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/BattleStage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/_Data/MonsterData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/DataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/TextRPG.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/TextRPG.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_AClasses/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/ICharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/ICharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/SceneManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Data/UserData.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/_Data/UserData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_LoadingScene/LoadingSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_LoadingScene/LoadingSceneManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_MainScene/MainSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_MainScene/MainSceneManager.cs" afterDir="false" />
@@ -29,10 +32,7 @@
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/ref/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/ref/TextRPG.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/refint/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/refint/TextRPG.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.week4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.week4_/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709639474846</updated>
       <workItem from="1709639475968" duration="661000" />
-      <workItem from="1709808591274" duration="1968000" />
+      <workItem from="1709808591274" duration="2566000" />
     </task>
     <servers />
   </component>

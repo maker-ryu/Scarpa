@@ -17,7 +17,6 @@ public class GameManager
     public GameManager()
     {
         Awake();
-        Start();
     }
     
     private void Awake()
@@ -28,7 +27,7 @@ public class GameManager
         sceneState = SceneState.LoadingScene;
     }
 
-    private void Start()
+    public void Start()
     {
         while (!endGame)
         {
@@ -52,6 +51,10 @@ public class GameManager
             case SceneState.GameScene:
                 GameSceneManager gameSceneManager = new GameSceneManager(dataManager);
                 sceneState = gameSceneManager.Start();
+                break;
+            case SceneState.GameOver:
+                endGame = true;
+                // 게임오버 메세지 출력
                 break;
             default:
                 break;

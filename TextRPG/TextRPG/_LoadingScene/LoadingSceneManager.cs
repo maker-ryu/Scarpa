@@ -2,16 +2,16 @@ using TextRPG._Common;
 
 namespace TextRPG._LoadingScene;
 
-public class LoadingSceneManager : SceneManager
+public class LoadingSceneManager
 {
     private DataManager dataManager;
     private bool endLoadingScene = false;
     private SceneState returnSceneState;
     private User user;
     
-    public LoadingSceneManager(DataManager _dataManager)
+    public LoadingSceneManager(DataManager dataManager)
     {
-        dataManager = _dataManager;
+        this.dataManager = dataManager;
         Awake();
     }
     
@@ -56,9 +56,9 @@ public class LoadingSceneManager : SceneManager
         user.Level = 1;
         user.Name = _name;
         user.Job = _job;
-        user.Attack = 10;
+        user.ATK = 10;
         user.Defence = 5;
-        user.Health = 100;
+        user.HP = 100;
         user.Gold = 1500;
     }
 
