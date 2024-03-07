@@ -17,6 +17,7 @@
 
     <ItemGroup>
       <None Include="bin\Debug\net8.0\UserData.json" />
+      <None Include="bin\Debug\net8.0\_Data\UserData.json" />
     </ItemGroup>
 
 </Project>

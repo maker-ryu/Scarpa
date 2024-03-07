@@ -32,4 +32,9 @@ public class GameSceneManager : SceneManager
     {
         
     }
+    
+    private void WriteLog(string _action, string _message)
+    {
+        Console.WriteLine($"(GSM log) {_action} : {_message}");
+    }
 }

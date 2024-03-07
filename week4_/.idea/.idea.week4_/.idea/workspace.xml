@@ -8,21 +8,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff5476b-b428-4080-aeec-2ed4c2dd5d88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../week2/.idea/.idea.week2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/.idea/.idea.week2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/bin/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/bin/Debug/net8.0/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/bin/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/bin/Debug/net8.0/week2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/ref/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/ref/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/refint/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/refint/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/week2/obj/Debug/net8.0/week2.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/.idea.week3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/week3/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/week3/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/week4/obj/Debug/net8.0/week4.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/ICharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/DataManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/DataManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/TextRPG.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/TextRPG.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_AClasses/SceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/SceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Data/UserData.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/_Data/UserData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_LoadingScene/LoadingSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_LoadingScene/LoadingSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_MainScene/MainSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_MainScene/MainSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/ref/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/ref/TextRPG.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/refint/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/refint/TextRPG.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.week4_/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.week4_/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/week4_/obj/Debug/net8.0/week4_.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,34 +42,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dGfk3MF0OFHkK54VEqmuEAOLba" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/maker-ryu/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache",
-      "/Users/maker-ryu/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache",
-      "/Users/maker-ryu/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/maker-ryu/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/maker-ryu/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/maker-ryu/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="week4_" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -89,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709639474846</updated>
       <workItem from="1709639475968" duration="661000" />
+      <workItem from="1709808591274" duration="1968000" />
     </task>
     <servers />
   </component>
