@@ -10,10 +10,15 @@ public class User : ICharacter
     public int HP { get; set; }
     public int Gold { get; set; }
 
-    public bool IsDead { get; set; }
+    public bool IsDead { get; set; } = false;
+
     public void TakeDamage(int damage)
     {
-        // Health -= damage;
+        HP -= damage;
+        if (HP <= 0)
+        {
+            IsDead = true;
+        }
     }
 
     public void DisplayUserInfo()

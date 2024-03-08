@@ -54,6 +54,8 @@ public class GameManager
                 break;
             case SceneState.GameOver:
                 endGame = true;
+                Console.Clear();
+                Console.WriteLine("게임 끝남!");
                 // 게임오버 메세지 출력
                 break;
             default:

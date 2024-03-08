@@ -35,6 +35,11 @@ public class GameSceneManager
         {
             returnSceneState = SceneState.GameOver;
         }
+        else
+        {
+            // 다음 스테이지 정보 입력
+            returnSceneState = SceneState.GameOver; // <<< 일단 게임오버 >>>
+        }
         
         return returnSceneState;
     }

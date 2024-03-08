@@ -8,7 +8,7 @@ public class Monster : ICharacter
     public string Name { get; set; }
     public int HP { get; set; }
     public int ATK { get; set; }
-    public bool IsDead { get; set; }
+    public bool IsDead { get; set; } = false;
     
     public Monster(DataManager dataManager, int _minIndex, int _maxIndex)
     {
@@ -26,6 +26,10 @@ public class Monster : ICharacter
     
     public void TakeDamage(int damage)
     {
-        throw new NotImplementedException();
+        HP -= damage;
+        if (HP <= 0)
+        {
+            IsDead = true;
+        }
     }
 }
