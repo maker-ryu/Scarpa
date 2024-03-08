@@ -8,6 +8,7 @@ public class BattleStage
     private DataManager dataManager;
     private User user;
     private List<Monster> monsters = new List<Monster>();
+    private ConsoleDisplay consoleDisplay = new ConsoleDisplay();
     
     private BattleState battleState;
 
@@ -95,7 +96,9 @@ public class BattleStage
         {
             if (monsters[a].IsDead)
             {
-                Console.WriteLine($"{a + 1} Lv.{monsters[a].Level} {monsters[a].Name} Dead");
+                string text = (a + 1) + " Lv. " + monsters[a].Level + " " + monsters[a].Name + " Dead";
+                consoleDisplay.ChangeColorAndWriteLine(text, ConsoleColor.Black);
+                // Console.WriteLine($"{a + 1} Lv.{monsters[a].Level} {monsters[a].Name} Dead");
             }
             else
             {
@@ -245,13 +248,15 @@ public class BattleStage
         
         if (user.IsDead)
         {
-            Console.WriteLine("You Lose\n");
+            // Console.WriteLine("You Lose\n");
+            consoleDisplay.ChangeColorAndWriteLine("You Lose\\n", ConsoleColor.Red);
             Console.WriteLine($"Lv.{user.Level} {user.Name}");
             Console.WriteLine("HP 100 -> Dead");
         }
         else
         {
-            Console.WriteLine("Victory\n");
+            // Console.WriteLine("Victory\n");
+            consoleDisplay.ChangeColorAndWriteLine("Victory\n", ConsoleColor.Green);
             Console.WriteLine($"던전에서 몬스터 {monsters.Count()}마리를 잡았습니다.\n");
             
             Console.WriteLine($"Lv.{user.Level} {user.Name}");

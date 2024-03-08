@@ -8,16 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eff5476b-b428-4080-aeec-2ed4c2dd5d88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/Monster.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Classes/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/Enum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_Common/ConsoleDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/BattleStage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/BattleStage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/_GameScene/GameSceneManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/bin/Debug/net8.0/TextRPG.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TextRPG/TextRPG/obj/Debug/net8.0/TextRPG.sourcelink.json" afterDir="false" />
