@@ -12,8 +12,8 @@ public class GameSceneManager(DataManager dataManager)
     public SceneState Start()
     {
         // 새로운 스테이지 생성
-        // BattleStage battleStage = new BattleStage(dataManager, user, user.Stage);
-        // battleStage.Start();
+        BattleStage battleStage = new BattleStage(dataManager, user, user.Stage);
+        battleStage.Start();
 
         // 플레이어가 죽지 않고 스테이지를 클리어 하면, 다음 스테이지 시작.
         if (user.IsDead)
