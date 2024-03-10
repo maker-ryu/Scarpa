@@ -1,0 +1,15 @@
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/bin/Debug/net8.0/week3_Snake
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/bin/Debug/net8.0/week3_Snake.deps.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/bin/Debug/net8.0/week3_Snake.runtimeconfig.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/bin/Debug/net8.0/week3_Snake.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/bin/Debug/net8.0/week3_Snake.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.AssemblyInfoInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.AssemblyInfo.cs
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.csproj.CoreCompileInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.sourcelink.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/refint/week3_Snake.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/week3_Snake.genruntimeconfig.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_Snake/obj/Debug/net8.0/ref/week3_Snake.dll

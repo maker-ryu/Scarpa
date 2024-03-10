@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eXLgPb6RmmJYIfErMYRpi4Eo9dsXEwtFvzobyjarMHuNmy8/1fZkqicSOsXHyOkNTMGxr9PQ8lX/f/+j6oc7fw==",
+  "success": true,
+  "projectFilePath": "/Users/maker-ryu/Desktop/Scarpa/week2/week2_TicTacToe/week2_TicTacToe.csproj",
+  "expectedPackageFiles": [
+    "/Users/maker-ryu/.nuget/packages/microsoft.win32.systemevents/9.0.0-preview.1.24080.9/microsoft.win32.systemevents.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/maker-ryu/.nuget/packages/system.drawing.common/9.0.0-preview.1.24081.2/system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TcMuW7tN3NDIm7q5VKkzfnC+A7QcFAqz3IXuhotM/Vh/2VB7Y9392+/FaMvS6EVzQA5y4yfNDDvJEFV8eqphgw==",
+  "dgSpecHash": "S+v+NcU8Qn7muB5K//XhVmIhVXmXe8rMBcjq7DdXunzNVm9MjpBMT0rnscTX5AFc8kzTBHsVNdohLk4wEcUb1g==",
   "success": true,
   "projectFilePath": "/Users/maker-ryu/Desktop/Scarpa/week2/week2/week2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/maker-ryu/.nuget/packages/microsoft.win32.systemevents/9.0.0-preview.1.24080.9/microsoft.win32.systemevents.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "/Users/maker-ryu/.nuget/packages/system.drawing.common/9.0.0-preview.1.24081.2/system.drawing.common.9.0.0-preview.1.24081.2.nupkg.sha512"
+  ],
   "logs": []
 }

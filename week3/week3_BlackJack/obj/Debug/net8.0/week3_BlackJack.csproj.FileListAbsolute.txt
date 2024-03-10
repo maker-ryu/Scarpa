@@ -1,0 +1,15 @@
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/bin/Debug/net8.0/week3_BlackJack
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/bin/Debug/net8.0/week3_BlackJack.deps.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/bin/Debug/net8.0/week3_BlackJack.runtimeconfig.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/bin/Debug/net8.0/week3_BlackJack.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/bin/Debug/net8.0/week3_BlackJack.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.AssemblyInfoInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.AssemblyInfo.cs
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.csproj.CoreCompileInputs.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.sourcelink.json
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/refint/week3_BlackJack.dll
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.pdb
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/week3_BlackJack.genruntimeconfig.cache
+/Users/maker-ryu/Desktop/Scarpa/week3/week3_BlackJack/obj/Debug/net8.0/ref/week3_BlackJack.dll
