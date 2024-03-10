@@ -3,28 +3,13 @@ using TextRPG._LoadingScene;
 
 namespace TextRPG._MainScene;
 
-public class MainSceneManager
+public class MainSceneManager(DataManager dataManager)
 {
-    private DataManager dataManager;
+    private User user = dataManager.GetUserData();
     private SceneState returnSceneState;
-    private User user;
     
     private bool endMainScene = false;
-    private MainSceneState mainSceneState;
-    
-    public MainSceneManager(DataManager dataManager)
-    {
-        this.dataManager = dataManager;
-        Awake();
-    }
-    
-    private void Awake()
-    {
-        Console.WriteLine("==== MainSceneManager 시작 ====");
-        // User 정보 할당
-        user = dataManager.GetUserData();
-        mainSceneState = MainSceneState.Idle;
-    }
+    private MainSceneState mainSceneState = MainSceneState.Idle;
 
     public SceneState Start()
     {
@@ -66,13 +51,8 @@ public class MainSceneManager
         Console.WriteLine("이제 전투를 시작할 수 있습니다.\n");
 
         // 메뉴 출력
-        for (int i = 1; i <= 2; i++)
-        {
-            MainSceneState menu = (MainSceneState)i;
-            string strMenu = menu.ToString();
-            strMenu = strMenu.Replace("_", " ");
-            Console.WriteLine($"{i}. {strMenu}");
-        }
+        Console.WriteLine("1. 상태 보기");
+        Console.WriteLine($"2. 전투 시작 (현재 진행 : {user.Stage}층)");
         
         Console.WriteLine("\n원하시는 행동을 입력해주세요.");
         Console.Write(">>");

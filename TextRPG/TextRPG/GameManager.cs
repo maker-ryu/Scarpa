@@ -5,34 +5,16 @@ using TextRPG._MainScene;
 
 namespace TextRPG;
 
-public class GameManager
+public class GameManager(DataManager dataManager)
 {
     private bool endGame = false;
-    private int gameSpeed = 1000; // 씬 전환 속도
-    private SceneState sceneState; // 현재 띄워야 할 씬이 무엇인지 저장
-    
-    // private SceneManager nowScene;
-    private DataManager dataManager;
-    
-    public GameManager()
-    {
-        Awake();
-    }
-    
-    private void Awake()
-    {
-        // 데이터 매니저 소환
-        dataManager = new DataManager();
-        // 씬 상태 초기화(당연히 처음 거쳐가야 하는 로딩씬)
-        sceneState = SceneState.LoadingScene;
-    }
+    private SceneState sceneState = SceneState.LoadingScene;
 
     public void Start()
     {
         while (!endGame)
         {
             Update();
-            Thread.Sleep(gameSpeed); 
         }
     }
 
@@ -54,9 +36,9 @@ public class GameManager
                 break;
             case SceneState.GameOver:
                 endGame = true;
+                // 게임종료 메세지 출력
                 Console.Clear();
                 Console.WriteLine("게임 끝남!");
-                // 게임오버 메세지 출력
                 break;
             default:
                 break;

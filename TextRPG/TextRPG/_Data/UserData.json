@@ -1,0 +1,11 @@
+{
+  "Level": 1,
+  "Name": "kiku",
+  "Job": "maker",
+  "ATK": 10,
+  "Defence": 5,
+  "HP": 100,
+  "Gold": 1500,
+  "Stage": 3,
+  "IsDead": false
+}

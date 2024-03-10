@@ -9,6 +9,7 @@ public class User : ICharacter
     public int Defence { get; set; }
     public int HP { get; set; }
     public int Gold { get; set; }
+    public int Stage { get; set; }
 
     public bool IsDead { get; set; } = false;
 
@@ -19,6 +20,18 @@ public class User : ICharacter
         {
             IsDead = true;
         }
+    }
+
+    public void CreateNewbieUserData(string name, string job)
+    {
+        Name = name;
+        Level = 1;
+        Job = job;
+        ATK = 10;
+        Defence = 5;
+        HP = 100;
+        Gold = 1500;
+        Stage = 1;
     }
 
     public void DisplayUserInfo()

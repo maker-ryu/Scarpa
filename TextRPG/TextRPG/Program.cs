@@ -7,8 +7,10 @@ class Program
 {
     static void Main()
     {
-        GameManager gameManager = new GameManager();
+        DataManager dataManager = new DataManager();
+        GameManager gameManager = new GameManager(dataManager);
         gameManager.Start();
+        // dataManager.SaveUserData();
         
         // // string relativePath = "_Data/UserData.json";
         // string relativePath = "_Data/MonsterData.json";

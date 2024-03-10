@@ -2,43 +2,30 @@ using TextRPG._Common;
 
 namespace TextRPG._GameScene;
 
-public class GameSceneManager
+public class GameSceneManager(DataManager dataManager)
 {
-    private DataManager dataManager;
+    private User user = dataManager.GetUserData();
     private SceneState returnSceneState;
-    private User user;
     
     private bool endGameScene = false;
-    // private BattleState battleState;
     
-    // 생성자
-    public GameSceneManager(DataManager dataManager)
-    {
-        this.dataManager = dataManager;
-        Awake();
-    }
-    
-    private void Awake()
-    {
-        Console.WriteLine("==== GameSceneManager 시작 ====");
-        // User 정보 할당
-        user = dataManager.GetUserData();
-        // battleState = BattleState.Idle;
-    }
-
     public SceneState Start()
     {
-        BattleStage battleStage = new BattleStage(dataManager, user, 1);
-        battleStage.Start();
+        // 새로운 스테이지 생성
+        // BattleStage battleStage = new BattleStage(dataManager, user, user.Stage);
+        // battleStage.Start();
 
+        // 플레이어가 죽지 않고 스테이지를 클리어 하면, 다음 스테이지 시작.
         if (user.IsDead)
         {
             returnSceneState = SceneState.GameOver;
         }
         else
         {
-            // 다음 스테이지 정보 입력
-            returnSceneState = SceneState.GameOver; // <<< 일단 게임오버 >>>
+            // 유저 정보를 저장하고, 다음 스테이지 진행
+            user.Stage++;
+            dataManager.SaveUserData2JsonFile(user);
+            returnSceneState = SceneState.MainScene;
         }
         
         return returnSceneState;
